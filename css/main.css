@@ -1,0 +1,52 @@
+body
+{
+	background-color:blue;
+}
+.two, .three, .four, .five, .six
+{
+	display:none;
+}
+@media (max-width:1200px){
+	body{
+		background:red;
+	}
+	.two{
+		display:block;
+	}
+}
+
+@media (max-width:980px){
+	body{
+		background:orange;
+	}
+	.three{
+		display:block;
+	}
+}
+
+@media (max-width:760px){
+	body{
+		background:yellow;
+	}
+	.four{
+		display:block;
+	}
+}
+
+@media (max-width:540px){
+	body{
+		background:green;
+	}
+	.five{
+		display:block;
+	}
+}
+
+@media (max-width:330px){
+	body{
+		background:blue;
+	}
+	.six{
+		display:block;
+	}
+}
